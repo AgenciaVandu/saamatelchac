@@ -1,0 +1,95 @@
+$arena: #EDE8DE;
+$terracota:#994024;
+$amarillo: #E39C0D;
+$verde: #2C351D;
+$dorado: #958464;
+
+@font-face {
+    font-family: 'rader';
+    src: url(/public/font/PPRader-Regular.otf);
+}
+@font-face {
+    font-family: 'geist';
+    src: url(/public/font/Geist-Light.otf);
+}
+@font-face {
+    font-family: 'brush';
+    src: url(/public/font/CasualBrush-Regular.ttf);
+}
+@font-face {
+    font-family: 'pangram';
+    src: url(/public/font/PPPangramSans-Semibold.otf);
+}
+
+h1,h2,h3,h4 {
+    font-family: 'rader';
+}
+
+p {
+    font-family: 'geist';
+    color: $verde;
+}
+
+.pangram {
+    font-family: 'pangram';
+}
+
+
+.body {
+    background-color: $arena;
+}
+
+.btn-primary {
+    background-color: $terracota !important;
+    padding: 5px 40px 5px 40px !important;
+    color: $arena !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-family: 'rader';
+    font-size: 1.2em !important;
+
+    &:hover {
+        background-color: $verde !important;
+        border: none !important;
+    }
+}
+
+.bg-saama {
+    background-color: $arena;
+}
+
+footer {
+
+
+    background-color: $verde;
+    .footer__contenido {
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .info {
+            padding-top: 3em;
+            color: $arena;
+        }
+    }
+    .desarrollador {
+        background-color: #958464;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .desarrollador__info {
+            min-height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            p {
+                padding-top: 15px;
+                color: $arena;
+            }
+        }
+    }
+}

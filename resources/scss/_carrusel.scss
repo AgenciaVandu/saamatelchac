@@ -1,0 +1,37 @@
+@keyframes slide {
+    from {
+    transform: translateX(0);
+    }
+    to {
+    transform: translateX(-100%);
+    }
+}
+.galeria {
+    padding: 3em 0;
+    white-space: nowrap;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    gap: 25px;
+
+    .carrusel {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+
+    }
+
+    &:hover
+        .carrusel {
+            animation-play-state: paused;
+        }
+        .carrusel {
+            animation: 15s slide infinite linear;
+        }
+
+
+}
