@@ -1,0 +1,20 @@
+@use 'global';
+@use 'slider';
+
+.gracias {
+    min-height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .gracias__contenido {
+        text-align: center;
+        h1 {
+            color: global.$terracota;
+        }
+        a {
+            color: global.$verde;
+            font-family: 'pangram';
+        }
+    }
+}

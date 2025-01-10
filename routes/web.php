@@ -29,4 +29,8 @@ Route::get('/departamento-aqua', function () {
     return view('aqua');
 });
 
+Route::get('/gracias-por-contactarnos', function () {
+    return view('gracias');
+});
+
 

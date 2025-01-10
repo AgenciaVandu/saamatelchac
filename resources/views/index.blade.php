@@ -23,7 +23,7 @@
 
     </header>
 
-    <section class="comunidad">
+    <section id="comunidad" class="comunidad">
         <div class="container text-center">
             <div class="video">
                 <iframe width="100%" height="625" muted="muted" src="https://www.youtube.com/embed/7EU5kyP1do4?si=mAJHmdUBwTx4Ugwy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  mute clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -41,7 +41,7 @@
         </div>
     </section>
 
-    <section class="destacados">
+    <section id="destacados" class="destacados">
         <div class="container">
             <h1>Pertenece a una comunidad exclusiva</h1>
         </div>
@@ -86,7 +86,7 @@
         </div>
     </section>
 
-    <section class="amenidades">
+    <section id="amenidades" class="amenidades">
         <div class="container">
             <h1>Interiores que inspiran</h1>
             <p>Cada tipología en Saama Telchac ha sido cuidadosamente diseñada para ofrecer un espacio <br> donde la
@@ -97,7 +97,7 @@
 
     </section>
     <x-galeria/>
-    <div class="resumen">
+    <div  class="resumen">
         <div class="container">
             <h1 class="text-center"> Amenidades diseñadas para cultivar tu felicidad</h1>
         </div>
@@ -114,7 +114,7 @@
         </div>
     </section>
 
-    <section class="tipologias">
+    <section id="tipologias" class="tipologias">
         <div class="container">
             <div class="tipologias__titular">
                 <h1> Conoce nuestra tipologías</h1>
@@ -234,7 +234,7 @@
         </div>
     </section>
 
-    <section class="ubicacion">
+    <section id="ubicacion" class="ubicacion">
         <div class="container">
             <div class="ubicacion__titulo text-center">
                 <h1>Conoce nuestra ubicación privilegiada</h1>
@@ -247,7 +247,7 @@
         </div>
     </section>
 
-    <section class="contacto">
+    <section id="contacto" class="contacto">
         <div class="container">
             <div class="contacto__titulo text-center">
                 <h1>Bienvenido a tu nueva residencia</h1>
