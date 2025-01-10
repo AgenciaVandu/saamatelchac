@@ -16,3 +16,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/departamento-garden', function () {
+    return view('garden');
+});
+
+Route::get('/departamento-palma', function () {
+    return view('palma');
+});
+
+Route::get('/departamento-aqua', function () {
+    return view('aqua');
+});
+
+

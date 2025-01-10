@@ -1,3 +1,7 @@
+@push('scss')
+@vite(['resources/scss/index.scss', 'resources/scss/app.scss',   'resources/js/app.js'])
+
+@endpush
 <x-layouts.app>
 
     <header class="cabecera">
@@ -22,7 +26,7 @@
     <section class="comunidad">
         <div class="container text-center">
             <div class="video">
-                <iframe width="100%" height="500" muted="muted" src="https://www.youtube.com/embed/7EU5kyP1do4?si=mAJHmdUBwTx4Ugwy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  mute clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="100%" height="625" muted="muted" src="https://www.youtube.com/embed/7EU5kyP1do4?si=mAJHmdUBwTx4Ugwy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  mute clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="comunidad__contenido">
                 <p class="pangram pt-4">
@@ -157,7 +161,7 @@
                                 </li>
                             </div>
                         </div>
-                        <a class="btn btn-primary mt-3">Hablar con un asesor</a>
+                        <a href="/departamento-garden" class="btn btn-primary mt-3">Hablar con un asesor</a>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
                         <img src="{{asset('img/garden.webp')}}" class="img-fluid" alt="">
@@ -193,7 +197,7 @@
                                 </li>
                             </div>
                         </div>
-                        <a class="btn btn-primary mt-3">Hablar con un asesor</a>
+                        <a href="/departamento-palma" class="btn btn-primary mt-3">Hablar con un asesor</a>
                     </div>
                 </div>
                 <div class="row mt-5">{{-- Aqua --}}
@@ -220,7 +224,7 @@
                                 </li>
                             </div>
                         </div>
-                        <a class="btn btn-primary mt-3">Hablar con un asesor</a>
+                        <a href="/departamento-aqua" class="btn btn-primary mt-3">Hablar con un asesor</a>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
                         <img src="{{asset('img/aqua.webp')}}" class="img-fluid" alt="">

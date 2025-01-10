@@ -1,0 +1,26 @@
+@use 'global';
+@use 'slider';
+
+.lead__modelo{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .lead__titulo {
+        h1 {
+            color: global.$terracota;
+        }
+
+    }
+    .lead__form {
+        .regresar {
+            a {
+             color: global.$verde ;
+             font-family: 'pangram';
+            }
+         }
+    }
+}
+

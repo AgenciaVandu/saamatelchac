@@ -20,7 +20,12 @@ $dorado: #958464;
     font-family: 'pangram';
     src: url(/public/font/PPPangramSans-Semibold.otf);
 }
-
+.nav-item {
+    padding-right: 1em !important;
+    .nav-link {
+        font-family: 'pangram' !important;
+    }
+}
 h1,h2,h3,h4 {
     font-family: 'rader';
 }
