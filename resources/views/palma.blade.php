@@ -5,7 +5,7 @@
 <x-layouts.app>
     <x-lead>
         <x-slot name="modelo">
-            Aqua
+            Palmagi
 
         </x-slot>
     </x-lead>
