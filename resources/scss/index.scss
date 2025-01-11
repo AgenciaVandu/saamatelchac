@@ -251,9 +251,16 @@
     .tipologias__contenido {
         .tipologia__modelo {
             padding-bottom: 1em;
-            h1{
-                font-size: 4em;
-                color: global.$terracota;
+            .modelo__titular {
+                display: flex;
+                h1{
+                    font-size: 4em;
+                    color: global.$terracota;
+                }
+                span {
+                    font-family: 'pangram';
+                }
+
             }
             .sold-out {
                 background-color: global.$amarillo;

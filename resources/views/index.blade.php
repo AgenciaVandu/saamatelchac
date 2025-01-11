@@ -129,7 +129,9 @@
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
                         <div class="tipologia__modelo">
-                            <h1>Penthouse</h1>
+                            <div class="modelo__titular">
+                                <h1>Penthouse</h1>
+                            </div>
                             <p>333.04 m2 | 4 recámaras</p>
                             <span class="sold-out">Sold out</span>
                         </div>
@@ -138,7 +140,9 @@
                 <div class="row pt-5">{{-- Garden --}}
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
                         <div class="tipologia__modelo">
-                            <h1>Garden <span>(01)</span></h1>
+                           <div class="modelo__titular">
+                            <h1>Garden </h1><span>(01)</span>
+                           </div>
                             <small>232.90 m2 | 3 recámaras</small>
                         </div>
                         <div class="row">
@@ -173,7 +177,10 @@
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
                         <div class="tipologia__modelo">
-                            <h1>Palma <span>(02)</span></h1>
+                            <div class="modelo__titular">
+                                <h1>Palma </h1>
+                                <span>(02)</span>
+                            </div>
                             <small>213.80 m2 | 3 recámaras</small>
                         </div>
                         <div class="row">
@@ -203,7 +210,10 @@
                 <div class="row mt-5">{{-- Aqua --}}
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
                         <div class="tipologia__modelo">
-                            <h1>Aqua <span>(03)</span></h1>
+                            <div class="modelo__titular">
+                                <h1>Aqua </h1>
+                                <span>(03)</span>
+                            </div>
                             <small>178.65 m2 | 3 recámaras</small>
                         </div>
                         <div class="row">
