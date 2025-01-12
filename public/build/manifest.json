@@ -1,0 +1,71 @@
+{
+  "public/font/CasualBrush-Regular.ttf": {
+    "file": "assets/CasualBrush-Regular-Du78xBr-.ttf",
+    "src": "public/font/CasualBrush-Regular.ttf"
+  },
+  "public/font/Geist-Light.otf": {
+    "file": "assets/Geist-Light-B5BTx7wn.otf",
+    "src": "public/font/Geist-Light.otf"
+  },
+  "public/font/PPPangramSans-Semibold.otf": {
+    "file": "assets/PPPangramSans-Semibold-Blct3Nql.otf",
+    "src": "public/font/PPPangramSans-Semibold.otf"
+  },
+  "public/font/PPRader-Regular.otf": {
+    "file": "assets/PPRader-Regular-BEqvMvKk.otf",
+    "src": "public/font/PPRader-Regular.otf"
+  },
+  "public/img/cta.webp": {
+    "file": "assets/cta-UQ9AAEvy.webp",
+    "src": "public/img/cta.webp"
+  },
+  "public/img/depas.png": {
+    "file": "assets/depas-DMRiR4wG.png",
+    "src": "public/img/depas.png"
+  },
+  "public/img/niveles.png": {
+    "file": "assets/niveles-D0UCazGH.png",
+    "src": "public/img/niveles.png"
+  },
+  "public/img/playa.png": {
+    "file": "assets/playa-CoTNCjX0.png",
+    "src": "public/img/playa.png"
+  },
+  "public/img/playa.webp": {
+    "file": "assets/playa-CdQn9qyf.webp",
+    "src": "public/img/playa.webp"
+  },
+  "public/img/recamaras.png": {
+    "file": "assets/recamaras-DukOk38h.png",
+    "src": "public/img/recamaras.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BYoPQLuU.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-h8t2fs3s.css"
+    ]
+  },
+  "resources/scss/app.scss": {
+    "file": "assets/app-h8t2fs3s.css",
+    "src": "resources/scss/app.scss",
+    "isEntry": true
+  },
+  "resources/scss/gracias.scss": {
+    "file": "assets/gracias-BcNJ_Upg.css",
+    "src": "resources/scss/gracias.scss",
+    "isEntry": true
+  },
+  "resources/scss/index.scss": {
+    "file": "assets/index-PnIHIioH.css",
+    "src": "resources/scss/index.scss",
+    "isEntry": true
+  },
+  "resources/scss/lead.scss": {
+    "file": "assets/lead-CLwzRH4M.css",
+    "src": "resources/scss/lead.scss",
+    "isEntry": true
+  }
+}
