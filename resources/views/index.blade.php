@@ -2,18 +2,19 @@
 @vite(['resources/scss/index.scss', 'resources/scss/app.scss',   'resources/js/app.js'])
 
 @endpush
-<x-layouts.app>
+<x-layouts.app titleSaama="Departamentos de alto lujo frente al mar en las costas de Yucatán" meta-description="Diseñado para quienes valoran la privacidad, el lujo y la tranquilidad, Saama
+ofrece un entorno de baja densidad con un número limitado de unidades, ideal para disfrutar de
+una vida extraordinaria en un paraíso frente al mar.">
 
     <header class="cabecera">
         <div class="container">
             <div class="row cabecera__pad">
                 <div class="col-lg-7 col-md-12 col-sm-12">
                     <h1 class="titular__titulo">Departamentos de alto lujo frente al mar en las costas de Yucatán</h1>
-                    <p class="titular__descripcion">Descubre Saama Telchac, un exclusivo desarrollo residencial en las
-                        hermosas playas de Yucatán. Diseñado para quienes valoran la privacidad y la tranquilidad, Saama
+                    <p class="titular__descripcion">Descubre Saama Telchac, un exclusivo desarrollo vertical en las
+                        hermosas playas de Yucatán. Diseñado para quienes valoran la privacidad, el lujo y la tranquilidad, Saama
                         ofrece un entorno de baja densidad con un número limitado de unidades, ideal para disfrutar de
-                        una
-                        vida extraordinaria en un paraíso frente al mar.</p>
+                        una vida extraordinaria en un paraíso frente al mar.</p>
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12 text-center m-auto">
                     <h1 class="costo">Desde 8.1 mdp</h1>
@@ -23,10 +24,10 @@
 
     </header>
 
-    <section id="comunidad" class="comunidad">
-        <div class="container text-center">
+    <section id="comunidad" class="comunidad ">
+        <div class="container text-center pb-5">
             <div class="video">
-                <iframe width="100%" height="625" muted="muted" src="https://www.youtube.com/embed/7EU5kyP1do4?si=mAJHmdUBwTx4Ugwy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  mute clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe loading="lazy" width="100%" height="625" muted="muted" src="https://www.youtube.com/embed/7EU5kyP1do4?si=mAJHmdUBwTx4Ugwy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;  mute clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="comunidad__contenido">
                 <p class="pangram pt-4">
@@ -36,7 +37,7 @@
                     experimentar diariamente la serenidad y los privilegios de estar a pasos del mar.
                 </p>
             </div>
-            <a class="btn btn-primary">Descargar brochure</a>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Descargar brochure</button>
 
         </div>
     </section>
@@ -107,9 +108,9 @@
     <section class="cta">
         <div class="container">
             <div class="cta__contenido">
-                <img src="{{asset('/img/logos/isaama-arena.svg')}}" width="40" class="cta__icono pb-3">
+                <img src="{{asset('/img/logos/isaama-arena.svg')}}" width="40" class="cta__icono pb-3" alt="icono saama telchac">
                 <h1 class="cta__titulo pb-3">Tu oasis frente al mar está esperando</h1>
-                <a class="btn btn-primary">Descargar brochure</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Descargar brochure</button>
             </div>
         </div>
     </section>
@@ -117,14 +118,14 @@
     <section id="tipologias" class="tipologias">
         <div class="container">
             <div class="tipologias__titular">
-                <h1> Conoce nuestra tipologías</h1>
+                <h1> Conoce nuestras tipologías</h1>
                 <p>Nuestros 3 modelos de departamentos fueron creados con características únicas <br> que brindan confort en
                     todo momento</p>
             </div>
             <div class="tipologias__contenido">
                 <div class="row pt-5">{{-- penthouse --}}
                     <div class="col-lg-6 col-md-12 col-sm-12">
-                        <img src="{{asset('img/penthouse.webp')}}" class="img-fluid" alt="">
+                        <img src="{{asset('img/penthouse.webp')}}" class="img-fluid" alt="Penthouse saama telchac">
 
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
@@ -168,12 +169,12 @@
                         <a href="/departamento-garden" class="btn btn-primary mt-3">Hablar con un asesor</a>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
-                        <img src="{{asset('img/garden.webp')}}" class="img-fluid" alt="">
+                        <img src="{{asset('img/garden.webp')}}" class="img-fluid" alt="Modelo Garden saama telchac">
                     </div>
                 </div>
                 <div class="row mt-5">{{-- Palma --}}
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
-                        <img src="{{asset('img/palma.webp')}}" class="img-fluid" alt="">
+                        <img src="{{asset('img/palma.webp')}}" class="img-fluid" alt="Modelo palma saama telchac">
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
                         <div class="tipologia__modelo">
@@ -237,7 +238,7 @@
                         <a href="/departamento-aqua" class="btn btn-primary mt-3">Hablar con un asesor</a>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
-                        <img src="{{asset('img/aqua.webp')}}" class="img-fluid" alt="">
+                        <img src="{{asset('img/aqua.webp')}}" class="img-fluid" alt="Modelo aqua saama telchac">
                     </div>
                 </div>
             </div>
@@ -257,14 +258,14 @@
         </div>
     </section>
 
-    <section id="contacto" class="contacto">
+    <section id="contacto" class="contacto pb-5">
         <div class="container">
             <div class="contacto__titulo text-center">
                 <h1>Bienvenido a tu nueva residencia</h1>
                 <p>Déjanos tus datos y uno de nuestros asesores se comunicará contigo con más información.</p>
             </div>
             <div class="contacto__formulario">
-
+                <div class="_form_1"></div><script src="https://geyluk.activehosted.com/f/embed.php?id=1" charset="utf-8"></script>
             </div>
         </div>
     </section>
