@@ -10,12 +10,14 @@
 
   gtag('config', 'AW-16593748225');
 </script>
+@stack('medicion')
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{$titleSaama ?? 'Saama telchac'}} - Saama Telchac </title>
     <meta name="description" content="{{$metaDescription ?? 'sin meta'}}">
     @stack('scss')
+
 </head>
 <body class="body">
 
