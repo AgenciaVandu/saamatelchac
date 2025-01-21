@@ -148,25 +148,24 @@ una vida extraordinaria en un paraíso frente al mar.">
                         </div>
                         <div class="row">
                             <div class="col-lg-6 col-sm-12">
-                                <li>Cocina</li>
-                                <li>Comedor</li>
-                                <li>Sala</li>
+                                <li>Piscina privada</li>
                                 <li>Terraza</li>
-                                <li>1/2 baños</li>
+                                <li>Sala / Comedor / Cocina</li>
+                                <li>Baño de visitas</li>
+                                <li>Cuarto de servicio con baños</li>
                                 <li>Recámara principal
-                                   <li class="li__interior">Clóset / Baño / terraza con Jacuzzi</li>
+                                   <li class="li__interior pl-4">Clóset, baño, jardín interior y jacuzzi.</li>
                                 </li>
                             </div>
                             <div class="col-lg-6 col-sm-12">
-                                <li>Recámara B
-                                <li>Clóset / Baño</li>
+                                <li>Recámara 1 y 2 con clóset y baño
+                                <li>Bodega</li>
                                 </li>
-                                <li>Recámara C
-                                <li class="li__interior">Clóset / Baño / Cuarto de servicio con baño completo</li>
+                                <li>2 cajones de estacionamiento
                                 </li>
                             </div>
                         </div>
-                        <a href="/departamento-garden" class="btn btn-primary mt-3">Hablar con un asesor</a>
+                        <a href="#contacto" class="btn btn-primary mt-3">Hablar con un asesor</a>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
                         <img src="{{asset('img/garden.webp')}}" class="img-fluid" alt="Modelo Garden saama telchac">
@@ -186,26 +185,25 @@ una vida extraordinaria en un paraíso frente al mar.">
                         </div>
                         <div class="row">
                             <div class="col-lg-6 col-sm-12">
-                                <li>Cocina</li>
-                                <li>Comedor</li>
-                                <li>Sala</li>
-                                <li>Terraza con vista a la laguna</li>
-                                <li>Terraza con vista al mar</li>
-                                <li>Piscina</li>
-                                <li>Recámara principal <br>
-                                    <li class="ml-3">Clóset Vestidor / Baño</li>
+                                <li>Piscina privada</li>
+                                <li>Terraza</li>
+                                <li>Sala / Comedor / Cocina</li>
+                                <li>Baño de visitas</li>
+                                <li>Cuarto de servicio con baños</li>
+                                <li>Recámara principal
+                                   <li class="li__interior pl-4">Clóset y baño</li>
                                 </li>
                             </div>
                             <div class="col-lg-6 col-sm-12">
-                                <li>Recámara B
-                                <li class="ml-3">Clóset / Baño</li>
+                                <li>Recámara 1 y 2 con clóset y baño
                                 </li>
-                                <li>Recámara C
-                                <li class="ml-3">Clóset / Baño / Cuarto de servicio con baño completo</li>
+                                <li>Terraza con vista a la laguna</li>
+                                <li>Bodega</li>
+                                <li>2 cajones de estacionamiento
                                 </li>
                             </div>
                         </div>
-                        <a href="/departamento-palma" class="btn btn-primary mt-3">Hablar con un asesor</a>
+                        <a href="#contacto" class="btn btn-primary mt-3">Hablar con un asesor</a>
                     </div>
                 </div>
                 <div class="row mt-5">{{-- Aqua --}}
@@ -219,23 +217,23 @@ una vida extraordinaria en un paraíso frente al mar.">
                         </div>
                         <div class="row">
                             <div class="col-lg-6 col-sm-12">
-                                <li>Cocina</li>
-                                <li>Comedor</li>
-                                <li>Sala</li>
-                                <li>Recámara principal <br>
-                                   <li class="ml-3">Clóset Vestidor / Baño</li>
+                                <li>Terraza</li>
+                                <li>Sala / Comedor / Cocina</li>
+                                <li>Cuarto de servicio con baños</li>
+                                <li>Recámara principal
+                                   <li class="li__interior pl-4">Clóset y baño</li>
                                 </li>
                             </div>
                             <div class="col-lg-6 col-sm-12">
-                                <li>Recámara B
-                                <li class="ml-3">Clóset / Baño</li>
+                                <li>Recámara 1 y 2 con clóset, baño y vista a la laguna
                                 </li>
-                                <li>Recámara C
-                                <li class="ml-3">Clóset / Baño / Cuarto de servicio con baño completo</li>
+                                <li>Cuarto de servicio con baño</li>
+                                <li>Bodega</li>
+                                <li>2 cajones de estacionamiento
                                 </li>
                             </div>
                         </div>
-                        <a href="/departamento-aqua" class="btn btn-primary mt-3">Hablar con un asesor</a>
+                        <a href="#contacto" class="btn btn-primary mt-3">Hablar con un asesor</a>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
                         <img src="{{asset('img/aqua.webp')}}" class="img-fluid" alt="Modelo aqua saama telchac">

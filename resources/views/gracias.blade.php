@@ -4,9 +4,10 @@
 @endpush
 @push('medicion')
     <!-- Event snippet for Llenado de Form - sitio web - VND conversion page -->
-<script>
+  <script>
     gtag('event', 'conversion', {'send_to': 'AW-16593748225/yw7rCOi744UaEIGCwug9'});
   </script>
+
 
 @endpush
 <x-layouts.app>
