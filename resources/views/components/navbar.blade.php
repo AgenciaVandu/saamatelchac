@@ -29,6 +29,12 @@
             <a href="/#contacto" class="nav-link ">Contacto</a>
           </li>
           <li class="nav-item">
+            <a href="{{ route('home') }}" class="nav-link ">ES</a>
+          </li>
+          <li class="nav-item">
+            <a href="{{ route('home.en') }}" class="nav-link ">EN</a>
+          </li>
+          <li class="nav-item">
             <a href="https://www.facebook.com/people/SAAMA-Telchac/100085116297594/?sk=about_contact_and_basic_info" class="nav-link ">
                 <img src="{{asset('img/fb.svg')}}" width="20" alt="">
             </a>

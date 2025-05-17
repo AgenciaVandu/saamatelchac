@@ -15,7 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('home');
+
+Route::get('/en', function () {
+    return view('en.index');
+})->name('home.en');
 
 Route::get('/departamento-garden', function () {
     return view('garden');
@@ -34,3 +38,19 @@ Route::get('/gracias-por-contactarnos', function () {
 });
 
 
+
+Route::get('/departamento-garden/en', function () {
+    return view('garden');
+});
+
+Route::get('/departamento-palma/en', function () {
+    return view('palma');
+});
+
+Route::get('/departamento-aqua/en', function () {
+    return view('aqua');
+});
+
+Route::get('/gracias-por-contactarnos/en', function () {
+    return view('gracias');
+});
