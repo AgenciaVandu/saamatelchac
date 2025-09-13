@@ -20,7 +20,7 @@
     "src": "public/img/cta.webp"
   },
   "public/img/depas.png": {
-    "file": "assets/depas-DMRiR4wG.png",
+    "file": "assets/depas-B2kUsreQ.png",
     "src": "public/img/depas.png"
   },
   "public/img/niveles.png": {
@@ -40,7 +40,7 @@
     "src": "public/img/recamaras.png"
   },
   "resources/js/app.js": {
-    "file": "assets/app-BYoPQLuU.js",
+    "file": "assets/app-CtA1VAUc.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -59,7 +59,7 @@
     "isEntry": true
   },
   "resources/scss/index.scss": {
-    "file": "assets/index-PnIHIioH.css",
+    "file": "assets/index-Bx45O9xL.css",
     "src": "resources/scss/index.scss",
     "isEntry": true
   },

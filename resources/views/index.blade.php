@@ -17,7 +17,7 @@ una vida extraordinaria en un paraíso frente al mar.">
                         una vida extraordinaria en un paraíso frente al mar.</p>
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12 text-center m-auto">
-                    <h1 class="costo">Desde 8.1 mdp</h1>
+                    <h1 class="costo">Desde 8.2 mdp</h1>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@ una vida extraordinaria en un paraíso frente al mar.">
                 <div class="web">
 
                     <div class="web__contenido">
-                        <h2 >10 niveles <br>
+                        <h2 >12 niveles <br>
                             con vista al mar</h2>
 
                     </div>
@@ -94,6 +94,9 @@ una vida extraordinaria en un paraíso frente al mar.">
                 sofisticación se encuentra con la serenidad del entorno natural. Con acabados de alta calidad y una
                 distribución <br> que maximiza la entrada de luz natural, nuestros interiores te envuelven en un ambiente de
                 confort y elegancia.</p>
+               <div class="text-center">
+                <a class="btn btn-primary" href="https://ths.li/LV6Afoh" target="blank_">Ver recorrido virtual</a>
+               </div>
         </div>
 
     </section>
@@ -121,6 +124,7 @@ una vida extraordinaria en un paraíso frente al mar.">
                 <h1> Conoce nuestras tipologías</h1>
                 <p>Nuestros 3 modelos de departamentos fueron creados con características únicas <br> que brindan confort en
                     todo momento</p>
+                    <a class="btn btn-primary" href="https://ths.li/becvpKC" target="blank_">Conócelo por dentro</a>
             </div>
             <div class="tipologias__contenido">
                 <div class="row pt-5">{{-- penthouse --}}
@@ -173,7 +177,7 @@ una vida extraordinaria en un paraíso frente al mar.">
                 </div>
                 <div class="row mt-5">{{-- Palma --}}
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
-                        <img src="{{asset('img/palma.webp')}}" class="img-fluid" alt="Modelo palma saama telchac">
+                        <img src="{{asset('img/palma.png')}}" class="img-fluid" alt="Modelo palma saama telchac">
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
                         <div class="tipologia__modelo">
@@ -236,7 +240,7 @@ una vida extraordinaria en un paraíso frente al mar.">
                         <a href="#contacto" class="btn btn-primary mt-3">Hablar con un asesor</a>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 m-auto">
-                        <img src="{{asset('img/aqua.webp')}}" class="img-fluid" alt="Modelo aqua saama telchac">
+                        <img src="{{asset('img/aqua.png')}}" class="img-fluid" alt="Modelo aqua saama telchac">
                     </div>
                 </div>
             </div>
